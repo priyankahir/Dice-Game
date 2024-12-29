@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-container .heroimage{
+  width: 50%;
+  height: 100vh;
+}
+.hero-container .heroimage img{
+    width: 100%;
+    height: 100vh;
+}
+.hero-container .content{
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-container .content h1{
+  font-size: 70px;
+  text-transform: capitalize;
+}
+.hero-container .content .playbtn{
+  width: 20%;
+  margin-top: 1rem;
+  background-color: black;
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+  border-radius: 10px;
+  transition: .5s ease-in-out;
+}
+.hero-container .content .playbtn:hover{
+  cursor: pointer;
+  scale: 1.2;
+}
+
+.numselector{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.numselector button{
+  width: 3rem;
+  height: 3rem;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  border-radius: 7px;
+  transition: .5s;
+  cursor: pointer;
+}
+.numselector button:hover{
+  background-color: white;
+  color: black;
+}
+
+.score{
+  width: 10rem;
+  text-align: center;
+}
+.score h1{
+  font-size: 3rem;
+}
+.score h2{
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.herogame-upper{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  /* border: 2px solid black; */
+}
+
+.diceimage img{
+  width: 15rem;
+  height: 15rem;
+}
+.diceimage img:hover{
+  cursor: pointer;
+}
+.herogame-lower{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7rem;
+  flex-direction: column;
+}
+.error{
+  color:red;
+  text-transform: capitalize;
+}
+.resetbtn{
+  color: white;
+  background-color: black;
+  width: 10rem;
+  margin-top: 1rem;
+  height: 2rem;
+  border-radius: 7px;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.resetbtn:hover{
+  scale: 1.2;
+}
+.showrule-btn{
+  color: white;
+  background-color: black;
+  width: 10rem;
+  margin-top: 1rem;
+  height: 2rem;
+  border-radius: 7px;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+.showrule-btn:hover{
+  scale: 1.2;
+}
+.rules{
+  margin-top: 1rem;
+  width: 40%;
+  border-radius: 7px;
+  border: 2px solid red;
+  padding: 10px;
+  background-color: rgb(255, 171, 171);
+}
+.rules p{
+  font-size: 18px;
+  text-transform: lowercase;
+}
+.rules h2{
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
